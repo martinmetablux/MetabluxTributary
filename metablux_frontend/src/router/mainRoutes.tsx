@@ -19,7 +19,7 @@ export const mainRoutes: RouteObject[] = [
     children: [
       ...dashboardRoutes,
       { path: "", element: <Navigate to="dashboard" replace /> },
-      { path: "*", element: <Navigate to="dashboard" replace /> },
+      // { path: "*", element: <Navigate to="dashboard" replace /> },
     ],
   },
 ];
@@ -30,7 +30,7 @@ export const allRoutes: RouteObject[] = [
   ...authRoutes,
   ...utilityRoutes,
   ...mainRoutes,
-  { path: "*", element: <Navigate to="/dashboard" replace /> },
+  // { path: "*", element: <Navigate to="/dashboard" replace /> },
 ];
 
 export default function AppRouter() {

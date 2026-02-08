@@ -1,0 +1,6 @@
+.ls-input{
+    padding: 2px 2px 5px !important;
+}
+.ls-input.error{
+    border: 1px solid red !important;
+}

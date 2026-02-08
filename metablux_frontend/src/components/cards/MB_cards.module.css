@@ -1,0 +1,28 @@
+:root{
+    --card-border-radius : 5px;
+
+    --card--bg-color:#afafaf;
+}
+
+.MB_Cards{
+    border: 1px solid #efefef;
+    border-radius: var(--card-border-radius);
+    background-color: var(--card--bg-color);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    transition: .3s;
+    
+    &:hover{
+        scale: 1.05;
+        transition: .3s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.151);
+    }
+}
+.MB_Card_Body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

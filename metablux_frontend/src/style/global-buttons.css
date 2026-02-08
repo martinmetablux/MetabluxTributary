@@ -1,0 +1,33 @@
+:root{
+    --primary-bg-clr:#0055A0;
+    --primary-txt-clr: #fff;
+
+    --secondary-bg-clr:#f6f6f6;
+    --secondary-txt-clr:#949494;
+
+    --danger-bg-clr:rgb(167, 18, 18);
+    --danger-txt-clr:#fff;
+}
+
+
+.mb-btn{
+    all: unset;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mb-btn-primary{
+    background-color: var(--primary-bg-clr);
+    color: var(--primary-txt-clr);
+}
+
+.mb-btn-secondary{
+    background-color: var(--secondary-bg-clr);
+    color: var(--secondary-txt-clr);
+}
+
+.mb-btn-danger{
+    background-color: var(--danger-bg-clr);
+    color: var(--danger-txt-clr);
+}
