@@ -11,10 +11,14 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
 from pathlib import Path
+import json
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+with open(BASE_DIR.parent / "metablux_testing.json") as f:
+    get_config = json.load(f)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
@@ -96,10 +100,10 @@ WSGI_APPLICATION = 'dashboard.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'metablux_testing',
-        'USER': 'metablux_user',
-        'PASSWORD': 'Metablux_M8YiF5Y49jnc2SfTixWaslL',
-        'HOST': 'localhost',
+        'NAME': get_config['DB_NAME'],
+        'USER': get_config['DB_USER'],
+        'PASSWORD': get_config['DB_PASSWORD'],
+        'HOST': get_config['DB_HOST'],
         'PORT': '5432',
     }
 }
@@ -139,6 +143,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
-STATIC_URL = 'static/'
+
+STATIC_ROOT = "/home/ubuntu/Desktop/Metablux/MetaBlux-Orbit/metablux_backend/static"
+STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = "authentication.User"
