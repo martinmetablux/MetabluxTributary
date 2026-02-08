@@ -17,7 +17,7 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-with open(BASE_DIR.parent / "metablux_testing.json") as f:
+with open(BASE_DIR.parent / "../metablux_testing.json") as f:
     get_config = json.load(f)
 
 # Quick-start development settings - unsuitable for production
