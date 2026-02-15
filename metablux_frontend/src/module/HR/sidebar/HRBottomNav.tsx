@@ -1,13 +1,13 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { MdHome, MdPerson, MdAccountBalance, MdHandshake, MdChat } from "react-icons/md";
+import { MdHome, MdChat, MdCalendarMonth, MdContentPaste, MdOutlineTextSnippet } from "react-icons/md";
 
 const navItems = [
-  { label: "Home", path: "/bd/home", icon: <MdHome size={20} /> },
-  { label: "Pre Leads", path: "/bd/preleads", icon: <MdChat size={20} /> },
-  { label: "Leads", path: "/bd/leads", icon: <MdPerson size={20} /> },
-  { label: "Accounts", path: "/bd/accounts", icon: <MdAccountBalance size={20} /> },
-  { label: "Deals", path: "/bd/deals", icon: <MdHandshake size={20} /> },
+  { label: "Home", path: "/hr/home", icon: <MdHome size={20} /> },
+  { label: "User List", path: "/hr/users", icon: <MdChat size={20} /> },
+  { label: "Leave", path: "/hr/leave", icon: <MdOutlineTextSnippet size={20} /> },
+  { label: "Attendance", path: "/hr/attendance", icon: <MdContentPaste size={20} /> },
+  { label: "Calendar", path: "/hr/calendar", icon: <MdCalendarMonth size={20} /> },
 ];
 
 const HRBottomNav: React.FC = () => {
