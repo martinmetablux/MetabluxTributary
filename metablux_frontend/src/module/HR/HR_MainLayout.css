@@ -1,0 +1,11 @@
+.fullpage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+.page-content {
+    display: flex;
+    flex: 1;
+    background-color: #f5f5f5;
+  }  

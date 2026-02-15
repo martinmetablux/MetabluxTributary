@@ -1,3 +1,14 @@
 :root{
-    --primay-clr : blue
+    --primay-clr : blue;
+}
+
+.mb-bg-clr-primary{
+    background-color: var(--primay-clr) !important;
+}
+.mb-txt-clr-primary{
+    color: var(--primay-clr) !important;
+}
+
+.mb-txt-clr-white{
+    color: #fff !important;
 }

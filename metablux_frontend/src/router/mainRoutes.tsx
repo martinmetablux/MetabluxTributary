@@ -6,6 +6,7 @@ import ProtectedRoute from "../components/common/ProtectedRoute";
 import { dashboardRoutes } from "./dashboardRoutes";
 import { authRoutes } from "./authRoutes";
 import { utilityRoutes } from "./utilityRoutes"
+import { hrRoutes } from "./hrRoutes";
 
 
 export const mainRoutes: RouteObject[] = [
@@ -28,6 +29,7 @@ export const mainRoutes: RouteObject[] = [
 export const allRoutes: RouteObject[] = [
   { path: "/", element: <Navigate to="/dashboard" replace /> },
   ...authRoutes,
+  ...hrRoutes,
   ...utilityRoutes,
   ...mainRoutes,
   // { path: "*", element: <Navigate to="/dashboard" replace /> },
