@@ -1,0 +1,238 @@
+:root {
+    --primay-clr : blue;
+    /* Font Families */
+    --mb-font-heading: 'Poppins', sans-serif;
+    --mb-font-body: 'Poppins', sans-serif;
+
+    --mb-font-family-poppins:'Poppins', sans-serif;
+    --mb-font-family-PJSans:"Plus Jakarta Sans", sans-serif;
+    --mb-font-family-Orbitron:"Orbitron", sans-serif;
+
+    /* --- Desktop Sizes & Weights --- */
+
+    --mb-txt-2xs: 10px;    /* Extra-extra-small */
+    --mb-txt-xs: 12px;     /* Extra-small */
+    --mb-txt-sm: 13px;     /* Small - just below base for subtle difference */
+    --mb-txt-base: 14px;   /* Base - your requested size */
+    --mb-txt-lg: 18px;     /* Large (approx 1.3x base, more readable for subheadings/buttons) */
+    --mb-txt-xl: 22px;     /* Extra-large (for h3/h2) */
+    --mb-txt-2xl: 28px;    /* 2x large for h2/main headline */
+    --mb-txt-3xl: 36px;    /* Massive for hero headline */
+
+
+    --mb-txt-light: 400;
+    --mb-txt-medium: 500;
+    --mb-txt-semibold: 600;
+    --mb-txt-bold: 700;
+
+    --mb-btn-radius: 4px;
+
+    --mb-btn-xs-height: 24px;
+    --mb-btn-s-height: 32px;
+    --mb-btn-m-height: 40px;
+
+    --mb-btn-padding-v: 6px;
+    --mb-btn-padding-h: 8px;
+
+    --mb-color-primary: #2667FF;
+    /* Royal Blue */
+    --mb-color-primary-hover: #1847B8;
+    /* Darker Royal Blue for hover */
+    --mb-color-secondary: #1A2233;
+    /* Deep Navy */
+    --mb-color-secondary-hover: #232C43;
+    /* Slightly lighter navy */
+
+    --mb-color-success: #1C824A;
+    /* Unchanged */
+    --mb-color-error: #E40000;
+    /* Unchanged */
+    --mb-color-warning: #F7C948;
+    /* Unchanged */
+    --mb-color-info: #B3E1FF;
+    /* Lighter Blue Accent */
+    --mb-color-background-color: #F5F8FB;
+    --mb-color-text-primary: #222831;
+    /* Very dark blue for strong contrast */
+    --mb-color-text-secondary: #5C6E8C;
+    /* Muted blue-gray for secondary text */
+    --mb-color-border: #D8D8D8;
+    /* Neutral border */
+    --mb-color-card-bg: #FFFFFF;
+    /* White card background */
+    --mb-color-background: #F5F8FB;
+    /* Very light blue/gray background */
+    --mb-color-background-search:#0055A0;
+
+    --mb-color-disabled: #A3A9B8;
+    /* Muted blue-gray for disabled */
+    --mb-color-smallcard-bg: #FFA6C1;
+    --mb-border-filter:#E9E9E9;
+    --mb-border-font-color:#00000080;
+
+   
+
+
+
+    --mb-accordion-header-hover: #F5F8FB;
+    --mb-accordion-header-active: #E5EAF2;
+
+    /* --- Button Colors & Gradients --- */
+    --mb-btn-primary-gradient-start: #0055A0;
+    /* Royal Blue */
+    --mb-btn-primary-gradient-end: #0055A0;
+    /* Slightly lighter Royal Blue */
+
+    --mb-btn-secondary-color: #1A2233;
+    /* Deep Navy */
+    --mb-btn-secondary-border: #1A2233;
+    --mb-btn-secondary-hover-bg: #232C43;
+    --mb-btn-secondary-text-hover: #FFFFFF;
+
+    --mb-btn-ternary-color: #20BFA9;
+    /* Modern Teal as a contrast accent */
+    --mb-btn-ternary-border: #20BFA9;
+    --mb-btn-ternary-hover-bg: #1BA392;
+    --mb-btn-ternary-text-hover: #FFFFFF;
+
+    --mb-btn-ghost-text: var(--mb-color-primary);
+    --mb-btn-ghost-hover-bg: #EDF3FD;
+    /* Very light blue background for ghost button hover */
+
+    --mb-btn-danger-bg: var(--mb-color-error);
+    --mb-btn-danger-hover-bg: #B80000;
+    --mb-btn-danger-text: #FFFFFF;
+
+    --mb-btn-disabled-bg: var(--mb-color-disabled);
+    --mb-btn-disabled-text: #FFFFFF;
+
+    --mb-table-bg: #fff;
+    /* Table/card background */
+    --mb-table-row-hover-bg: #F5F8FB;
+    /* Row hover (very light blue) */
+    --mb-table-header-bg: #F0F2F5;
+    /* Header and tag background */
+    --mb-table-border: #E5EAF2;
+    /* Border and divider */
+    --mb-table-heading-txt: #1A2233;
+    /* th (header) text */
+    --mb-table-txt: #23293B;
+    /* Table cell text */
+    --mb-table-placeholder-txt: #A3A9B8;
+    /* Empty/muted/placeholder */
+
+    /* Main badge colors */
+    --mb-badge-blue-bg: #2667FF;
+    --mb-badge-blue-bg-soft: #E6EEFF;
+    --mb-badge-green-bg: #1C824A;
+    --mb-badge-green-bg-soft: #DFF7E6;
+    --mb-badge-yellow-bg: #F7C948;
+    --mb-badge-yellow-bg-soft: #FFF9E6;
+    --mb-badge-red-bg: #E40000;
+    --mb-badge-red-bg-soft: #FFE5E5;
+    --mb-badge-grey-bg: #F0F2F5;
+    --mb-badge-dark-bg: #23293B;
+    --mb-badge-purple-bg: #9D3CFF;
+    --mb-badge-teal-bg: #20BFA9;
+    --mb-badge-pink-bg: #EC4899;
+    --mb-badge-orange-bg: #FF9100;
+
+    /* Text colors */
+    --mb-badge-blue-txt: #2667FF;
+    --mb-badge-green-txt: #1C824A;
+    --mb-badge-yellow-txt: #B68B00;
+    --mb-badge-red-txt: #E40000;
+    --mb-badge-grey-txt: #23293B;
+    --mb-badge-dark-txt: #fff;
+    --mb-badge-purple-txt: #fff;
+    --mb-badge-teal-txt: #fff;
+    --mb-badge-pink-txt: #fff;
+    --mb-badge-orange-txt: #fff;
+
+    /* --- Button Sizing --- */
+    --mb-btn-radius: 4px;
+
+    --mb-btn-large-height: 48px;
+    --mb-btn-medium-height: 40px;
+    --mb-btn-small-height: 32px;
+
+    --mb-btn-large-padding: 16px 24px;
+    --mb-btn-medium-padding: 16px 24px;
+    --mb-btn-small-padding: 12px 20px;
+
+    --mb-btn-large-font-size: 16px;
+    --mb-btn-medium-font-size: 16px;
+    --mb-btn-small-font-size: 14px;
+    --mb-input-font-size-large:24px;
+
+    /* Shared badge styles */
+    --mb-badge-radius: 12px;
+    --mb-badge-padding: 0.22em 0.95em;
+    --mb-badge-font-size: 0.98em;
+    --mb-badge-font-weight: 500;
+    --mb-badge-large-font-weight:600;
+
+
+    /* --- Spacing Scale --- */
+    --mb-space-0: 0px;
+    --mb-space-1: 4px;
+    --mb-space-2: 8px;
+    --mb-space-3: 12px;
+    --mb-space-4: 16px;
+    --mb-space-5: 20px;
+    --mb-space-6: 24px;
+    --mb-space-7: 32px;
+    --mb-space-8: 40px;
+    --mb-space-9: 48px;
+    --mb-space-10: 64px;
+
+    /* --- Grid Gutters --- */
+    --mb-grid-gutter-mobile: 16px;
+    --mb-grid-gutter-desktop: 24px;
+
+    /* --- Container & Card Padding --- */
+    --mb-container-padding-mobile: 16px;
+    --mb-container-padding-desktop: 24px;
+
+    --mb-card-padding-mobile: 16px;
+    --mb-card-padding-desktop: 20px;
+
+    /* --- Max Content Widths --- */
+    --mb-max-width-sm: 600px;
+    --mb-max-width-md: 960px;
+    --mb-max-width-lg: 1280px;
+    --mb-max-width-xl: 1440px;
+
+    /* --- Section Vertical Spacing (Responsive) --- */
+    --mb-section-space-top-mobile: var(--mb-space-6);
+    --mb-section-space-bottom-mobile: var(--mb-space-6);
+
+    --mb-section-space-top-desktop: var(--mb-space-8);
+    --mb-section-space-bottom-desktop: var(--mb-space-8);
+
+
+    /* Modal */
+    --mb-modal-overlay-bg: rgba(34, 41, 59, 0.40);
+    --mb-modal-bg: #fff;
+    --mb-modal-radius: 12px;
+    --mb-modal-shadow: 0 12px 48px rgba(34, 41, 59, 0.10);
+    --mb-modal-padding: 32px;
+    --mb-modal-header-bg: #F0F2F5;
+    --mb-modal-header-txt: #23293B;
+    --mb-modal-footer-bg: #F9F9FC;
+
+    --mb-modal-bg: #fff;
+    --mb-modal-radius: 16px;
+    --mb-modal-shadow: 0 16px 48px rgba(34, 41, 59, 0.13);
+
+    /* Sizes */
+    --mb-modal-width-sm: 340px;
+    --mb-modal-width-md: 480px;
+    --mb-modal-width-lg: 720px;
+    --mb-modal-width-xl: 96vw;
+    /* for full-width, rarely used */
+
+    --mb-modal-padding: 32px;
+    --mb-modal-header-padding: 24px 32px 12px 32px;
+    --mb-modal-footer-padding: 20px 32px 20px 32px;
+}

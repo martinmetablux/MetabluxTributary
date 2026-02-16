@@ -2,6 +2,7 @@ import style from "./style_guide.module.css"
 import { MB_Cards } from "../components/cards/MB_cards"
 import { MB_Modal } from "../components/modal/MB_modal"
 import { useState } from "react"
+import { Breadcrumbs, Link, Typography } from "@mui/material"
 
 export const Style_Guide:React.FC=()=>{
     const [MB_ModalOpen,setMB_ModalOpen]=useState(false)
@@ -81,6 +82,21 @@ export const Style_Guide:React.FC=()=>{
                 </div>
             </MB_Modal>
             <br />
+            <h3>MB Breadcrumbs</h3>
+            <Breadcrumbs aria-label="breadcrumb">
+                <Link underline="hover" color="inherit" href="/">
+                    Home
+                </Link>
+                <Link
+                    underline="hover"
+                    color="inherit"
+                    href="/material-ui/getting-started/installation/"
+                >
+                    List
+                </Link>
+                <Typography sx={{ color: 'text.primary' }}>Breadcrumbs</Typography>
+            </Breadcrumbs>
+            
             
 
         </div>

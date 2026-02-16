@@ -295,16 +295,16 @@ label {
 /* .ls-btn-primary {
   background-image: linear-gradient(
       to top right, 
-      var(--ls-btn-primary-gradient-start), 
-      var(--ls-btn-primary-gradient-end)
+      var(--mb-btn-primary-gradient-start), 
+      var(--mb-btn-primary-gradient-end)
   );
   color: white;
 } */
 .ls-btn-primary:hover {
   background-image: linear-gradient(
       to top right, 
-      var(--ls-btn-primary-gradient-end), 
-      var(--ls-btn-primary-gradient-start)
+      var(--mb-btn-primary-gradient-end), 
+      var(--mb-btn-primary-gradient-start)
   );
 }
   

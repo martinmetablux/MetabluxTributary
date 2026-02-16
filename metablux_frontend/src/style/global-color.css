@@ -1,7 +1,3 @@
-:root{
-    --primay-clr : blue;
-}
-
 .mb-bg-clr-primary{
     background-color: var(--primay-clr) !important;
 }

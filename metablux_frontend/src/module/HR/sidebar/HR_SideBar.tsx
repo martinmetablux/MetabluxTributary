@@ -7,7 +7,7 @@ const HRSideBar: React.FC = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const pathname = location.pathname;
-    const [isCollapsed, setIsCollapsed] = useState(true);
+    const [isCollapsed, setIsCollapsed] = useState(false);
 
     const toggleSidebar = () => {
         setIsCollapsed(!isCollapsed);

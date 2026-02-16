@@ -60,7 +60,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'authentication',
-    'metablux_internal'
+    'metablux_internal',
+    'hr',
 ]
 
 MIDDLEWARE = [

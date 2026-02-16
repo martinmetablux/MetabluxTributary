@@ -1,6 +1,8 @@
 const HR_Calander: React.FC = () => {
   return (
-    <h1>HR User Calender Page</h1>
+    <>
+       <h2><span className="mb-txt-clr-primary mb-mr-5px">Calendar</span>List</h2>
+    </>
   );
 };
 
