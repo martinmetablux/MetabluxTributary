@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext"
 import AppRouter from "./router/mainRoutes";
 
+import './style/global-inputs.css'
 import './style/global-buttons.css'
 import './style/global-root.css'
 import './style/global-color.css'

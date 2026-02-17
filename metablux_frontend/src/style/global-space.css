@@ -9,6 +9,12 @@
     display: flex !important;
 }
 
+.mb-flex-center{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
 .mb-gap-0px-5px{
     gap: 0px 5px !important;
 }

@@ -199,6 +199,7 @@ const LoginPages: React.FC = () => {
                   id="email"
                   type="email"
                   name="email"
+                  className="mb-img-input"
                   value={forgotEmail.email}
                   onChange={handleForgotChange}
                   required
@@ -251,6 +252,7 @@ const LoginPages: React.FC = () => {
           <input
             type="text"
             name="username"
+            className="mb-img-input"
             value={formData.username}
             onChange={handleLoginChange}
             required
@@ -266,6 +268,7 @@ const LoginPages: React.FC = () => {
             type={showPassword ? "text" : "password"}
             name="password"
             value={formData.password}
+            className="mb-img-input"
             onChange={handleLoginChange}
             required
           />
@@ -281,10 +284,11 @@ const LoginPages: React.FC = () => {
         </div>
 
         <div className="options">
-          <label>
+          <label className="mb-flex-center">
             <input
               type="checkbox"
               name="rememberMe"
+              className="mb-mr-5px"
               checked={formData.rememberMe}
               onChange={handleLoginChange}
             />
