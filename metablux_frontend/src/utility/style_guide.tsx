@@ -3,6 +3,7 @@ import { MB_Cards } from "../components/cards/MB_cards"
 import { MB_Modal } from "../components/modal/MB_modal"
 import { useState } from "react"
 import { Breadcrumbs, Link, Typography } from "@mui/material"
+import { Badge } from "../components/badge/badge"
 
 export const Style_Guide:React.FC=()=>{
     const [MB_ModalOpen,setMB_ModalOpen]=useState(false)
@@ -96,7 +97,9 @@ export const Style_Guide:React.FC=()=>{
                 </Link>
                 <Typography sx={{ color: 'text.primary' }}>Breadcrumbs</Typography>
             </Breadcrumbs>
-            
+            <br />
+            <h3>MB Badge</h3>
+            <Badge title="Martin" />
             
 
         </div>

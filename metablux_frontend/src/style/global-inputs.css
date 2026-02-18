@@ -7,3 +7,14 @@
     color: #202124;
     transition: border .2s ease
 }
+
+.mb-input {
+    border: 1px solid black;
+    padding: 7px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.mb-input:focus {
+    border: 1px solid var(--primay-clr);
+}
